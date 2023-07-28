@@ -26,6 +26,7 @@ class MyHomePage extends StatefulWidget {
 
   final String title;
 
+
   @override
   State<MyHomePage> createState() => _MyHomePageState();
 }
@@ -35,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final myController = TextEditingController();
   TextEditingController cardController = TextEditingController();
 
-  final List<String> names = <String>["cae"];
+  final List<String> names = <String>[];
   final List<int> leaveLeft = <int>[];
 
   void addItemToList() {
